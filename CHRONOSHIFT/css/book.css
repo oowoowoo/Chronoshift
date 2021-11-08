@@ -1,0 +1,131 @@
+html, body {
+    background-color: #AAC2A2;
+    padding: 0;
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p, .btn, .readmore {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #476930;
+}
+
+.cselogo {
+    position: relative;
+    border: solid 10px #476930;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cselogo img {
+    vertical-align: top;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #476930;
+}
+
+.navbar a {
+    float: left;
+    color:#AAC2A2;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    background-color:#AAC2A2;
+    color: #476930;
+}
+
+.navbar a.active { 
+    background-color: #DCDDC0;
+    color: #476930;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.aurora {
+    position: relative;
+    width: 99%;
+    border: #476930;
+    border-width: 10px;
+    border-style: solid;
+    height: 400px;
+    overflow: hidden;
+}
+
+.aurora img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h1 {
+    font-size: 45px;
+}
+
+.info, .desired, .waiver {
+    background-color: #DCDDC0;
+    padding: 10px;
+}
+
+.submit {
+    background-color:#DCDDC0;
+    color:#476930;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    border: #476930;
+    border-width:5px;
+    border-style:solid
+}
+
+.form {
+    border: solid 10px #476930;
+    color: #476930;
+}
+
+.foot {
+    border: solid 10px #476930;
+    background: #DCDDC0;
+    max-width: 22.5%;
+    color: #476930;
+}
+
+.foot p, .footerh3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footerh3 {
+    color: black;
+}
